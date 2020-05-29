@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewreport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Responsive form with flexbox</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <ul class="flex-outer">
+                <li>
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" placeholder="Enter Your First Name here">
+                </li>
+                <li>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" placeholder="Enter Your Last Name here">
+                </li>
+                <li>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter Your E-mail here">
+                </li>
+                <li>
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" placeholder="Enter Your Phone number here">
+                </li>
+                <li>
+                    <label for="message">Message</label>
+                    <textarea id="message" row="6" placeholder="Enter Your message here"></textarea>
+                </li>
+                <li>
+                    <p>Age</p>
+                    <ul class="flex-inner"></ul>
+                    <li>
+                        <input type="checkbox" id="twenty-to-twentynine">
+                        <label for="twenty-to-twentynine">20-29</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="thirty-to-thritynine">
+                        <label for="thirty-to-thritynine">30-39</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="fourthty-to-fourthtynine">
+                        <label for="fourthty-to-fourthtynine">40-49</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="fifty-to-fiftynine">
+                        <label for="fifty-to-fiftynine">50-59</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="sixty-to-sixtynine">
+                        <label for="sixty-to-sixtynine">60-69</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="other">
+                        <label for="other">Others</label>
+                    </li>
+                </li>
+                <li>
+                    <button type="submit">Submit</button>
+                </li>
+            </ul>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
